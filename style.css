@@ -1,0 +1,30 @@
+
+  .website-link-box {
+    margin: 20px auto;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* Optional: Add responsive margin adjustments */
+  .col-lg-4, .col-md-6 {
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    margin-top: 10px;
+  }
+
+  /* Ensures responsiveness for smaller screens */
+  @media (max-width: 768px) {
+    .col-lg-4 {
+      width: 100%;
+    }
+  }
