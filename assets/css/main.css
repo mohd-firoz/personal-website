@@ -801,10 +801,32 @@ section,
   justify-content: center;
 }
 
-@media (max-width : 600px) {
+@media (max-width : 1000px) {
   .hero {
     min-height: 60vh;
-    max-height: 500px;
+  }
+}
+
+@media (max-width : 768px) {
+  .hero {
+    min-height: 50vh;
+  }
+}
+@media (max-width : 600px) {
+  .hero {
+    min-height: 40vh;
+  }
+}
+@media (max-width : 480px) {
+  .hero {
+    min-height: 35vh;    
+    padding: 60px 0;
+  }
+}
+@media (max-width : 375px) {
+  .hero {
+    min-height: 30vh;    
+    padding: 80px 0 30px 0;
   }
 }
 
@@ -817,6 +839,7 @@ section,
   object-fit: cover;
   z-index: 1;
 }
+
 
 .hero .container {
   position: relative;
