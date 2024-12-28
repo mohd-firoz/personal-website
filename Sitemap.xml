@@ -1,31 +1,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>https://mohd-firoz.github.io/personal-website/</loc>
+    <loc>https://mohd-firoz.vercel.app/</loc>
     <lastmod>2024-12-28T10:22:18+00:00</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
-    <loc>https://mohd-firoz.github.io/personal-website/about</loc>
+    <loc>https://mohd-firoz.vercel.app/about</loc>
     <lastmod>2024-12-28T10:47:05+00:00</lastmod>
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://mohd-firoz.github.io/personal-website/portfolio</loc>
+    <loc>https://mohd-firoz.vercel.app/portfolio</loc>
     <lastmod>2024-12-28T10:47:05+00:00</lastmod>
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://mohd-firoz.github.io/personal-website/services</loc>
+    <loc>https://mohd-firoz.vercel.app/services</loc>
     <lastmod>2024-12-28T10:47:05+00:00</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
-    <loc>https://mohd-firoz.github.io/personal-website/resume</loc>
+    <loc>https://mohd-firoz.vercel.app/resume</loc>
     <lastmod>2024-12-28T10:47:05+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://mohd-firoz.github.io/personal-website/contact</loc>
+    <loc>https://mohd-firoz.vercel.app/contact</loc>
     <lastmod>2024-12-28T10:47:05+00:00</lastmod>
     <priority>0.80</priority>
   </url>
