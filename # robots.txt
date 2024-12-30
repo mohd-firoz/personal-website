@@ -1,4 +1,4 @@
-# robots.txt file for https://mohd-firoz.github.io/personal-website
+# robots.txt file for https://mohd-firoz.vercel.app 
 User-agent: Googlebot
 Disallow: 
 User-agent: googlebot-image
@@ -34,4 +34,4 @@ Disallow:
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
-Sitemap: https://mohd-firoz.github.io/personal-website/sitemap.xml
+Sitemap: https://mohd-firoz.vercel.app/sitemap.xml
