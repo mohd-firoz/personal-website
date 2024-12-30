@@ -254,9 +254,9 @@
       <div class="heading">
         <div class="container">
           <div class="row d-flex justify-content-center">
-            <div class="col-lg-12">
+            <div class="col-lg-12 service-details-section">
               <h1 class="text-center">SERVICES PROVIDED</h1>
-              <p class="mb-0">i specialize in providing comprehensive solutions to help your business run smoothly and
+              <p class="mb-0" style="text-align: justify;">I specialize in providing comprehensive solutions to help your business run smoothly and
                 grow. From web and app development to digital marketing and office management, our wide range of
                 services ensures that your needs are met with professionalism and efficiency.</p>
             </div>
@@ -271,7 +271,42 @@
     </div><!-- End Page Title -->
 
     <!-- Services Section -->
-    <section id="services" class="services section">
+    <section id="services" class="services section" style="position: relative;">
+
+      <svg preserveAspectRatio="xMidYMid slice" viewBox="10 20 80 80">
+        <defs>
+            <style>
+                @keyframes rotate {
+               0% {
+                        transform: rotate(0deg);
+                    }
+                    100% {
+                        transform: rotate(360deg);
+                    }
+                }
+                .out-top {
+                    animation: rotate 25s linear infinite;
+                    transform-origin: 13px 25px;
+                }
+                .in-top {
+                    animation: rotate 15s linear infinite;
+                    transform-origin: 13px 25px;
+                }
+                .out-bottom {
+                    animation: rotate 30s linear infinite;
+                    transform-origin: 84px 93px;
+                }
+                .in-bottom {
+                    animation: rotate 20s linear infinite;
+                    transform-origin: 84px 93px;
+                }
+            </style>
+        </defs>
+        <path fill="#060606" class="out-top" d="M37-5C25.1-14.7,5.7-19.1-9.2-10-28.5,1.8-32.7,31.1-19.8,49c15.5,21.5,52.6,22,67.2,2.3C59.4,35,53.7,8.5,37-5Z"/>
+        <path fill="#0f0f0f" class="in-top" d="M20.6,4.1C11.6,1.5-1.9,2.5-8,11.2-16.3,23.1-8.2,45.6,7.4,50S42.1,38.9,41,24.5C40.2,14.1,29.4,6.6,20.6,4.1Z"/>
+        <path fill="#060606" class="out-bottom" d="M105.9,48.6c-12.4-8.2-29.3-4.8-39.4.8-23.4,12.8-37.7,51.9-19.1,74.1s63.9,15.3,76-5.6c7.6-13.3,1.8-31.1-2.3-43.8C117.6,63.3,114.7,54.3,105.9,48.6Z"/>
+        <path fill="#0f0f0f" class="in-bottom" d="M102,67.1c-9.6-6.1-22-3.1-29.5,2-15.4,10.7-19.6,37.5-7.6,47.8s35.9,3.9,44.5-12.5C115.5,92.6,113.9,74.6,102,67.1Z"/>
+    </svg>
 
       <div class="container">
 
@@ -379,7 +414,7 @@
   </main>
 
   <footer id="footer" class="footer dark-background">
-    <div class="container">
+    <div class="container service-details-section">
       <h3 class="sitename index-about-heading">ABOUT ME</h3>
       <p class="index-about-text" style="text-align: justify;">I am a versatile professional with expertise in Digital
         Marketing, specializing in Google Ads, SEO, and Social Media Campaigns, helping businesses grow their online
@@ -392,10 +427,14 @@
         challenges
         from multiple perspectives, making me an adaptable and resourceful professional.</p>
 
-      <div class="social-links d-flex justify-content-center">
-        <a href="https://www.facebook.com/MHDFIRZ"><i class="bi bi-facebook"></i></a>
-        <a href="https://www.instagram.com/_mhd_firu_zz_/"><i class="bi bi-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/mohammed-firoz-m-a-bb885412b/"><i class="bi bi-linkedin"></i></a>
+      <div class="social-links d-flex justify-content-center social-links-footer">
+        <a href="https://www.facebook.com/MHDFIRZ"><i class="bi bi-facebook" style="font-size: 24px;"></i></a>
+        <a href="https://www.instagram.com/_mhd_firu_zz_/"><i class="bi bi-instagram" style="font-size: 24px;"></i></a>
+        <a href="https://www.linkedin.com/in/mohammed-firoz-m-a-bb885412b/"><i class="bi bi-linkedin"
+            style="font-size: 24px;"></i></a>
+        <a
+          href="https://api.whatsapp.com/send?phone=+919633827006&text=Hi%20there!%20I%20found%20your%20profile%20from%20your%20website%20and%20would%20like%20to%20connect."><i
+            class="bi bi-whatsapp" style="font-size: 24px;"></i></a>
       </div>
 
       <div class="container">
@@ -403,10 +442,6 @@
           <span>Copyright</span> <strong class="px-1 sitename">Firoz</strong> <span>All Rights Reserved @2025</span>
         </div>
         <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
           Designed by <a href="https://mohd-firoz.github.io/personal-website/">MOHAMMED FIROZ</a>
         </div>
       </div>
@@ -416,6 +451,12 @@
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
+
+  <!-- WhatsApp Icon -->
+  <a href="https://api.whatsapp.com/send?phone=919633827006&text=Hi%20there!%20I%20found%20your%20profile%20from%20your%20website%20and%20would%20like%20to%20connect."
+    id="whatsapp-icon" class="whatsapp-icon" target="_blank">
+    <i class="bi bi-whatsapp"></i>
+  </a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
