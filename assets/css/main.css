@@ -649,7 +649,7 @@ h6 {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 15px;
+  right: 38px;
   bottom: -15px;
   z-index: 99999;
   background-color: var(--accent-color);
@@ -817,12 +817,6 @@ section,
     min-height: 40vh;
   }
 }
-@media (max-width : 480px) {
-  .hero {
-    min-height: 35vh;    
-    padding: 60px 0;
-  }
-}
 @media (max-width : 375px) {
   .hero {
     min-height: 30vh;    
@@ -848,7 +842,7 @@ section,
 
 .hero h2 {
   margin: 0;
-  font-size: 64px;
+  font-size: 120px;
   font-weight: 700;
 }
 
@@ -1618,14 +1612,14 @@ section,
 #whatsapp-icon {
   position: fixed;
   bottom: 80px;
-  right: 18px;
+  right: 36px;
   background-color: #25D366;
   color: #fff;
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   text-align: center;
-  font-size: 28px;
+  font-size: 32px;
   z-index: 1000;
   animation: blink 1s infinite;
 }
