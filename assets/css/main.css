@@ -1421,7 +1421,7 @@ section,
 .portfolio .portfolio-content .portfolio-info .preview-link,
 .portfolio .portfolio-content .portfolio-info .details-link {
   position: absolute;
-  left: calc(50% - 40px);
+  left: 50%;
   font-size: 26px;
   top: calc(50% - 14px);
   color: #fff;
