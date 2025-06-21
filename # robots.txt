@@ -5,4 +5,4 @@ Disallow: /cgi-bin/
 Allow: /
 
 # Sitemap location
-Sitemap: https://mohd-firoz.vercel.app/Sitemap.xml
+Sitemap: https://mohd-firoz.github.io/personal-website/sitemap.xml
